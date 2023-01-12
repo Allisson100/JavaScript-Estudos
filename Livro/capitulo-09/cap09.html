@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./cap09.css">
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+
+    <title>Capítulo 9</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/ex9_3.jpg" alt="Imagem qualquer" class="imgProg">
+            </div>
+
+            <div class="col-sm-8" id="divPai">
+                <h1>Copa do Brasil - Classificados</h1>
+
+                <p>
+                    <label for="inClube">Clube:</label>
+                    <input type="text" class="form-control" id="inClube">
+                </p>
+
+                <p>
+                    <input type="button" class="btn btn-primary" value="Adicionar" id="btAdicionar">
+                    <input type="button" class="btn btn-success" value="Montar Tabela de Jogos" id="btMontar">
+                    <input type="button" class="btn btn-danger" value="Novos Clubes" id="btNovosClubes">
+                </p>
+
+                <div class="posicao" id="divPosicao"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./cap09.js"></script>
+    <script src="./exercicios09.js"></script>
+</body>
+</html>
